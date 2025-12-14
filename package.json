@@ -1,13 +1,12 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "Fundamentos do NodeJS",
+  "description": "Fundament of NodeJS",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch src/server.js"
+    "dev": "node --watch src/server.js"
   },
-  "author": "Rosendo Coelho",
+  "author": "Rosendo Habit",
   "license": "ISC"
 }
