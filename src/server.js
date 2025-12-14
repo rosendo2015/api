@@ -1,7 +1,10 @@
-import http from 'node:http';
+import http from "node:http";
+import{jsonBodyHandler}from "./middlewares/jsonBodyHandler.js";
+import { routeHandler } from "./middlewares/routeHandler.js";
 
-const server = http.createServer((req, res) => {
-    return res.end('Sucesso! Servidor rodando na porta 3333');
+const server = http.createServer(async(req, res) => {
+  await jsonBodyHandler(req, res);
+  routeHandler(req, res) 
 });
 
 server.listen(3333);

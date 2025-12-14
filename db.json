@@ -1,0 +1,8 @@
+{
+  "products": [
+    { "name": "Mouse", "price": 20 },
+    { "name": "Teclado", "price": 50 },
+    { "name": "NoteBook", "price": 5000 },
+    { "name": "Pad Mouse", "price": 26.5 }
+  ]
+}
